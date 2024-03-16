@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Portafolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel='stylesheet' href='assets/css/style.css'>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a href='#' class="logo">
+          <div class="saludando">
+            <img src="./assets/img/saludando.png" width="90px" height="90px">
+          </div>
+          <span>Fernando Dominguez</span>
+        </a>
+        <div class="nav__menu">
+          <button type="button" class="btn btn--close" aria-label="cerrar">
+            <i class='bx bx-x'></i>
+          </button>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href='#hero' class="nav__link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href='#sobre-mi' class="nav__link">Sobre mi</a>
+            </li>
+            <li class="nav__item">
+              <a href='#proyectos' class="nav__link">Proyectos</a>
+            </li>
+            <li class="nav__item">
+              <a href='#contacto' class="nav__link">Contacto</a>
+            </li>
+            <li>
+              <button onclick="toggleDarkMode()">
+                <i class='bx bxs-moon'></i>
+                <i class='bx bxs-sun'></i>
+              </button>
+            </li>
+          </ul>         
+        </div>
+        <button type="button" class="btn btn--open" aria-label="abrir">
+          <i class='bx bx-menu'></i>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="section hero">
+        <div class='container'>
+          <div class='hero__content'>
+            <div>
+              <h1 id="typing" class="hero:title hero__typing">👋🏻👋🏻👋🏻👋🏻👋🏻
+                <span class="hero__name"></span>
+                <h2>Fernando Dominguez</h2>
+                <p class="hero__description">
+                  <div class="computadora">
+                    <img src="./assets/img/computadora.png" height="200px" width="200px">
+                  </div>
+                    <form action="https://www.google.com">
+                      <button>Descarga mi CV</button>
+                    </form>  
+                </p>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sobre-mi" class="section sobre-mi">
+        <div class='container'>
+          <div class="div">
+            <div class="div item">
+              <div>
+                <h2 class='section__title'>Sobre mi</h2> 
+                <div class='sobre-mi__info'>
+                  <p>
+                    Hola! Soy Fernando, tengo 21 años, vivo en Pachuca Hidalgo Mexico y soy       Desarrollador Web con una alta capacidad de adaptibilidad y aprendizaje, me encantan los deportes, en especial el Beísbol ⚾<br>
+                    Me gusta desarrollar codigos informáticos y mi pasión por la programación se refleja en mi constante búsqueda de proyectos desafiantes y en la dedicación para encontrar las mejores soluciones posibles. Me encuentro constantemente aprendiendo cosas nuevas dentro de la industria
+                </p>
+                </div>
+              </div>
+            </div>
+            <div class="div item">
+              <div>
+                <div class="memoji">
+                  <img src="./assets/img/amor-y-paz.heic">
+                </div> 
+                 <div class='sobre-mi__content'> 
+                    <div class="img-goku"> 
+                      <img src="./assets/img/goku-chico.gif" alt="">
+                    </div>
+                    <div class='sobre-mi__image'> 
+                      <img src='./assets/img/yo.jpg' class="sobre-mi__img">
+                    </div> 
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="proyectos" class="section section--color proyectos">
+        <div class='container'>
+          <h2 class='section__title'>Proyectos</h2>
+          <div class="pensando">
+            <img src="./assets/img/pensando.png">
+          </div>
+          <p class="section__description"></p>
+          <div class='proyectos__content'>
+            <div class="carta-wrapper">
+              <div class="carta">
+                <h3>Proyecto</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat velit eaque eum in iusto omnis, fugiat nulla doloribus reiciendis odio facilis minus, repellat error itaque sed aliquam officiis, recusandae ex?
+                </p>
+                <form action="https://www.google.com">
+                  <button>+ Info</button>
+                </form> 
+              </div>                
+              <div class="carta">
+                <h3>Proyecto</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat velit eaque eum in iusto omnis, fugiat nulla doloribus reiciendis odio facilis minus, repellat error itaque sed aliquam officiis, recusandae ex?
+                </p>
+                <form action="https://www.google.com">
+                  <button>+ Info</button>
+                </form>
+              </div>
+              <div class="carta">
+                <h3>Proyecto</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat velit eaque eum in iusto omnis, fugiat nulla doloribus reiciendis odio facilis minus, repellat error itaque sed aliquam officiis, recusandae ex?
+                </p>
+                <form action="https://www.google.com">
+                  <button>+ Info</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contacto" class="section">
+        <div class='container'>
+          <div class="f-h">
+            <div class=" adios">
+              <img src="./assets/img/adios.png">
+            </div>
+            <div class="div-item">
+            <h2 class='section__title'>Contacto</h2>              
+              <p>
+                <strong>fd1439682@gmail.com</strong>
+              </p>
+              <div class="redes">
+                <a action="https://www.instagram.com/fer_dhhh/">
+                  <button>
+                    <i class='bx bxl-instagram'></i>
+                  </button>
+                </a>
+                <a 
+                  action="https://www.linkedin.com/in/fernando-dominguez-b03b732aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                  <button>
+                    <i class='bx bxl-linkedin-square'></i>
+                  </button>
+                </a>
+              </div>
+              <div class="form">
+                <form>
+                  <input class="controls" type="text" placeholder="Nombre">
+                  <input class="controls" type="text" placeholder="Correo">
+                  <input class="controls" type="text" placeholder="Mensaje">
+                  <button>
+                    Enviar<i class='bx bx-send'></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class='container'>
+        <p class="copy">by fer_dhh</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src='assets/js/index.js'></script>
+  </body>
+</html>
